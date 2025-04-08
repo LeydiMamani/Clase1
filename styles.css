@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/d7/b9/b8/d7b9b872ed15156ce1cbd059a6ab1c92.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#output {
+    padding: 20px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgba(241, 241, 241, 0.8);
+    font-style: italic;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    font-style: italic; 
+}
+
+h1 {
+    color: #000000; 
+    font-style: italic; 
+    width: fit-content;
+}
+
+button {
+    border: 2px solid #000;  
+    font-style: italic;  
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #f0f0f0; 
+}
+
+.btn-primary {
+    font-style: italic; 
+    border: 2px solid #000;  
+    border-radius: 8px; 
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
