@@ -3,4 +3,4 @@ const showMessage = (message) => {
   };
   
   console.log(showMessage('Hola, ¿cómo estás?'));
-  
+  console.log("segundo mensaje")
